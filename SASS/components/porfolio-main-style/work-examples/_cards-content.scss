@@ -1,0 +1,36 @@
+.work-examples-card .card-content {
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  padding-top: 20px;
+  padding-right: 24px;
+  padding-left: 24px;
+  padding-bottom: 20px;
+}
+
+.card-content > .subject {
+  display: flex;
+  margin: 0;
+  text-align: center;
+  justify-content: start;
+
+  color: $main-text-color;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.card-content > .caption {
+  display: flex;
+  margin: 0;
+  text-align: center;
+  justify-content: start;
+
+  color: $secondary-text-color;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}
