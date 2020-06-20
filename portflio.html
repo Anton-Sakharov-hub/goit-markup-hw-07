@@ -14,7 +14,7 @@
   <body>
     <!-- Шапка -->
     <header class="header">
-      <div class="nav-container header-underline">
+      <div class="header-container">
         <nav class="nav">
           <a href="./index.html" class="logo"
             ><span class="logo-blue">Web</span>
@@ -23,10 +23,12 @@
 
           <ul class="site-nav ut-list">
             <li class="item">
-              <a href="./index.html" class="nav-link link-accent">Студия</a>
+              <a href="./index.html" class="nav-link link-accent active-page"
+                >Студия</a
+              >
             </li>
             <li class="item">
-              <a href="./portflio.html" class="nav-link link-accent active-page"
+              <a href="./portflio.html" class="nav-link link-accent"
                 >Портфолио</a
               >
             </li>
@@ -291,9 +293,9 @@
         </div>
         <div class="footer-call-container">
           <b class="footer-call">присоединяйтесь</b>
-          <ul class="footer-social-networks ut-list">
+          <ul class="social-networks ut-list">
             <li>
-              <a href="" class="icon" aria-label="Instagram">
+              <a href="" class="footer-icon" aria-label="Instagram">
                 <svg class="instagram" width="44" height="44">
                   <use
                     href="./images-web-studio/sprite.svg#icon-Instagram"
@@ -306,7 +308,7 @@
               </a>
             </li>
             <li>
-              <a href="" class="icon" aria-label="Twitter">
+              <a href="" class="footer-icon" aria-label="Twitter">
                 <svg class="twitter" width="44" height="44">
                   <use
                     href="./images-web-studio/sprite.svg#icon-twitter"
@@ -319,7 +321,7 @@
               </a>
             </li>
             <li>
-              <a href="" class="icon" aria-label="Facebook">
+              <a href="" class="footer-icon" aria-label="Facebook">
                 <svg class="facebook" width="44" height="44">
                   <use
                     href="./images-web-studio/sprite.svg#icon-facebook"
@@ -332,7 +334,7 @@
               </a>
             </li>
             <li>
-              <a href="" class="icon" aria-label="LinkedIn">
+              <a href="" class="footer-icon" aria-label="LinkedIn">
                 <svg class="Linkedin" width="44" height="44">
                   <use
                     href="./images-web-studio/sprite.svg#icon-LinkedIn"
@@ -358,7 +360,7 @@
               id="mailling-form"
               placeholder="E-mail"
             />
-            <button class="mailling-button">
+            <button class="button mailling-button">
               Подписаться
               <svg class="icon-send" width="25" height="25">
                 <use href="./images-web-studio/sprite.svg#icon-send"></use>
@@ -366,9 +368,6 @@
             </button>
           </div>
         </div>
-      </div>
-      <div class="copyrights-container">
-        <p class="copyrights">2020 | Developed by GoIT Students</p>
       </div>
     </footer>
   </body>

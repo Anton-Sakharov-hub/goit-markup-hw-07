@@ -1,0 +1,29 @@
+.footer-call {
+  display: inline-block;
+  margin-bottom: 21px;
+
+  color: $inverse-color;
+
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.social-networks li:not(:first-child) {
+  margin-left: 11px;
+}
+
+.footer-icon {
+  display: block;
+  width: 44px;
+  height: 44px;
+  border-radius: 100%;
+  fill: $inverse-color;
+  background-color: $footer-bg-icon-color;
+}
+
+.footer .social-networks {
+  padding: 0;
+}

@@ -1,0 +1,37 @@
+.footer-contacts {
+  margin: 0;
+
+  font-style: normal;
+}
+
+.footer-address,
+.footer-mail,
+.footer-number {
+  display: block;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.footer-address {
+  margin-top: 0;
+  margin-bottom: 9px;
+
+  color: $inverse-color;
+}
+
+.footer-mail {
+  margin-top: 0;
+  margin-bottom: 9px;
+
+  color: $footer-text-color;
+}
+
+.footer-number {
+  margin-top: 0;
+  margin-bottom: 0;
+
+  color: $footer-text-color;
+}
