@@ -1,12 +1,15 @@
+// Стили для списка секции наша команда
+
 .card-title {
   margin-top: 30px;
   margin-bottom: 10px;
 
-  color: $main-text-color;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+
+  color: $main-text-color;
 }
 
 .position {
@@ -16,6 +19,8 @@
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+
+  color: $secondary-text-color;
 }
 
 .team-cards-item {

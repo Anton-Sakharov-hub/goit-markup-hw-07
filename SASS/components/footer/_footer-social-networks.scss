@@ -1,3 +1,5 @@
+//  Стили блока социальные сети подвала
+
 .footer-call {
   display: inline-block;
   margin-bottom: 21px;
@@ -11,8 +13,10 @@
   text-transform: uppercase;
 }
 
-.social-networks li:not(:first-child) {
-  margin-left: 11px;
+li:not(:first-child) {
+  .social-networks & {
+    margin-left: 11px;
+  }
 }
 
 .footer-icon {

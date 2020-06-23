@@ -1,3 +1,5 @@
+// Стили навигации шапки
+
 .nav {
   display: flex;
 }
@@ -6,8 +8,10 @@
   margin-left: 80px;
 }
 
-.site-nav .item:not(:first-child) {
-  margin-left: 50px;
+.item:not(:first-child) {
+  .site-nav & {
+    margin-left: 50px;
+  }
 }
 
 .site-nav > .item {

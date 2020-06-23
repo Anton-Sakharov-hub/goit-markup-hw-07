@@ -1,3 +1,5 @@
+// Стили списка секции занятий
+
 .occupations-list .item {
   position: relative;
 }
@@ -24,6 +26,8 @@
   text-transform: uppercase;
 }
 
-.occupations-list > .item + .item {
-  margin-left: 30px;
+.occupations-list {
+  & > .item + .item {
+    margin-left: 30px;
+  }
 }

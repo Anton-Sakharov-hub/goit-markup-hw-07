@@ -1,3 +1,5 @@
+// Стили блока контактов подвала
+
 .footer-contacts {
   margin: 0;
 
@@ -8,6 +10,7 @@
 .footer-mail,
 .footer-number {
   display: block;
+  margin-top: 0;
 
   font-weight: 400;
   font-size: 14px;
@@ -16,21 +19,18 @@
 }
 
 .footer-address {
-  margin-top: 0;
   margin-bottom: 9px;
 
   color: $inverse-color;
 }
 
 .footer-mail {
-  margin-top: 0;
   margin-bottom: 9px;
 
   color: $footer-text-color;
 }
 
 .footer-number {
-  margin-top: 0;
   margin-bottom: 0;
 
   color: $footer-text-color;

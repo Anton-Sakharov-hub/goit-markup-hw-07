@@ -1,11 +1,11 @@
+// Стили списка секции Приемущества
+
 .advant-items-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
-  // color: #212121;
 }
 
 .advantages-description {
@@ -13,6 +13,8 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+
+  color: $secondary-text-color;
 }
 
 .advant-items > .item + .item {
@@ -31,23 +33,28 @@
   background-color: $secondary-bgc-color;
 }
 
-.advant-items > .item:nth-child(1)::before {
-  content: "";
+.advant-items {
+  & > .item:nth-child(1)::before {
+    content: "";
 
-  background-image: url(../images-web-studio/icons/antenna.svg);
-}
-.advant-items > .item:nth-child(2)::before {
-  content: "";
+    background-image: url(../images-web-studio/icons/antenna.svg);
+  }
 
-  background-image: url(../images-web-studio/icons/clock.svg);
-}
-.advant-items > .item:nth-child(3)::before {
-  content: "";
+  & > .item:nth-child(2)::before {
+    content: "";
 
-  background-image: url(../images-web-studio/icons/diagram.svg);
-}
-.advant-items > .item:nth-child(4)::before {
-  content: "";
+    background-image: url(../images-web-studio/icons/clock.svg);
+  }
 
-  background-image: url(../images-web-studio/icons/astronaut.svg);
+  & > .item:nth-child(3)::before {
+    content: "";
+
+    background-image: url(../images-web-studio/icons/diagram.svg);
+  }
+
+  & > .item:nth-child(4)::before {
+    content: "";
+
+    background-image: url(../images-web-studio/icons/astronaut.svg);
+  }
 }
