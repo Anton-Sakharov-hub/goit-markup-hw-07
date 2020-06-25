@@ -1,3 +1,5 @@
+// стили бекдропа, анимации, заголовка
+
 .backdrop {
   position: fixed;
   top: 0;
@@ -6,23 +8,30 @@
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
   z-index: 100;
+  overflow-y: scroll;
 
   opacity: 1;
 
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  .is-hidden {
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(1.2);
+  }
 }
 
-.backdrop.is-hidden {
-  opacity: 0;
-  pointer-events: none;
-  transform: scale(1.2);
-}
+// .backdrop.is-hidden {
+//   opacity: 0;
+//   pointer-events: none;
+//   transform: scale(1.2);
+// }
 
-.backdrop.is-hidden .form {
-  transform: translate(-50%, -50%) scale(1.2);
-  opacity: 0;
-}
+// .backdrop.is-hidden .form {
+//   transform: translate(-50%, -50%) scale(1.2);
+//   opacity: 0;
+// }
 
 .form {
   position: absolute;
@@ -49,9 +58,14 @@
 
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  .backdrop.is-hidden & {
+    transform: translate(-50%, -50%) scale(1.2);
+    opacity: 0;
+  }
 }
 
-.form-header {
+.form-heading {
   margin-bottom: 30px;
 
   font-weight: 700;
@@ -60,11 +74,6 @@
   letter-spacing: 0.03em;
 
   color: $main-text-color;
-}
-
-.input-wrap {
-  position: relative;
-  margin-bottom: 28px;
 }
 
 /* .checkbox:checked + .checkbox-icon > use {
