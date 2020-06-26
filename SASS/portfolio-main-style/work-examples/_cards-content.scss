@@ -20,10 +20,11 @@
 
   color: $main-text-color;
 
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
+  // font-weight: 700;
+  // font-size: 18px;
+  // line-height: 2;
+  // letter-spacing: 0.06em;
+  @include font-styles(700, 18px, 2, 0.06em);
 }
 
 .card-content > .caption {
@@ -33,8 +34,9 @@
   justify-content: start;
 
   color: $secondary-text-color;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.03em;
+  // font-weight: 400;
+  // font-size: 16px;
+  // line-height: 1.88;
+  // letter-spacing: 0.03em;
+  @include font-styles($font-size: 16px, $line-height: 1.88);
 }

@@ -6,10 +6,11 @@
 
   color: $inverse-color;
 
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
+  // font-weight: bold;
+  // font-size: 14px;
+  // line-height: 1.14;
+  // letter-spacing: 0.03em;
+  @include font-styles($font-weight: 700);
   text-transform: uppercase;
 }
 

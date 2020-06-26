@@ -5,8 +5,9 @@
   justify-content: center;
   margin-bottom: 30px;
 
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+  // line-height: 1.71;
+  // letter-spacing: 0.03em;
+  @include font-styles($line-height: 1.71);
 }
 
 .form-agreement label {

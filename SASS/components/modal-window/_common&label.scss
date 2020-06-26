@@ -68,14 +68,11 @@
 .form-heading {
   margin-bottom: 30px;
 
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 1.15;
-  letter-spacing: 0.03em;
+  // font-weight: 700;
+  // font-size: 20px;
+  // line-height: 1.15;
+  // letter-spacing: 0.03em;
+  @include font-styles(700, 20px, 1.15, 0.03em);
 
   color: $main-text-color;
 }
-
-/* .checkbox:checked + .checkbox-icon > use {
-  background-origin: border-box;
-} */

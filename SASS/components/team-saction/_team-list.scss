@@ -4,10 +4,11 @@
   margin-top: 30px;
   margin-bottom: 10px;
 
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
+  // font-weight: 500;
+  // font-size: 16px;
+  // line-height: 1.19;
+  // letter-spacing: 0.03em;
+  @include font-styles(500, 16px, 1.19);
 
   color: $main-text-color;
 }
@@ -15,11 +16,11 @@
 .position {
   margin-bottom: 16px;
 
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-
+  // font-weight: 400;
+  // font-size: 16px;
+  // line-height: 1.19;
+  // letter-spacing: 0.03em;
+  @include font-styles($font-size: 16px, $line-height: 1.19);
   color: $secondary-text-color;
 }
 
