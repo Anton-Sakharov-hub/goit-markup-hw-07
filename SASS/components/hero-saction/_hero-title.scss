@@ -8,9 +8,6 @@
   margin-bottom: 46px;
 
   color: $inverse-color;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  letter-spacing: 0.06em;
+  @include font-styles(900, 44px, 1.36, 0.06em);
   text-transform: uppercase;
 }
