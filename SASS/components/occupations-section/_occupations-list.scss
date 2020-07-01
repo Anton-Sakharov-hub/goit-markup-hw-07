@@ -19,10 +19,6 @@
   color: $inverse-color;
   background-color: $bgc-occupations-items-caption;
 
-  // font-weight: 700;
-  // font-size: 14px;
-  // line-height: 1.17;
-  // letter-spacing: 0.03em;
   @include font-styles($font-weight: 700, $line-height: 1.17);
   text-transform: uppercase;
 }
