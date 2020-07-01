@@ -1,4 +1,10 @@
-// Стили списка секции Приемуществ
+// Секция Приемуществ
+
+.advantages {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 94px;
+}
 
 .advant-items-title {
   @include font-styles($font-weight: 700);

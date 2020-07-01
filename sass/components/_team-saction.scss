@@ -1,4 +1,13 @@
-// Стили для списка секции наша команда
+// Секция Наша команда
+
+.our-team-saction {
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 94px;
+  padding-bottom: 94px;
+
+  background-color: $secondary-bgc-color;
+}
 
 .card-title {
   margin-top: 30px;
